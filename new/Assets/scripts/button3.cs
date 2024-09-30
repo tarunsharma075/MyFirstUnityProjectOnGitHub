@@ -16,7 +16,7 @@ public class button3 : MonoBehaviour
 
     private  void onbuttonclick()
     {
-        Debug.Log("The button 3 is clicked");
+     
         SceneManager.LoadScene(changesence);
     }
 
