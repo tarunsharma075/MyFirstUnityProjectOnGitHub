@@ -10,11 +10,11 @@ public class backbutton2 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        backbuttontwo.onClick.AddListener(onclick);
+        backbuttontwo.onClick.AddListener(oneclick);
     }
 
 
-    private void onclick()
+    private void oneclick()
     {
         SceneManager.LoadScene(changesence);
     }

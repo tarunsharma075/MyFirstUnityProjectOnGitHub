@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 798962330}
   - component: {fileID: 798962329}
   - component: {fileID: 798962328}
-  - component: {fileID: 798962327}
+  - component: {fileID: 798962331}
   m_Layer: 5
   m_Name: Button 3
   m_TagString: Untagged
@@ -293,20 +293,6 @@ RectTransform:
   m_AnchoredPosition: {x: 81, y: -23}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &798962327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798962325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc54c683c4cbdf4ebacb74a7b711171, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backbuttonthree: {fileID: 798962328}
-  changesence: Master sence
 --- !u!114 &798962328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,6 +375,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798962325}
   m_CullTransparentMesh: 1
+--- !u!114 &798962331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798962325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc3b251157d16c41b2b99a307587bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backbuttonthree: {fileID: 798962328}
+  changesence: Master sence
 --- !u!1 &933555949
 GameObject:
   m_ObjectHideFlags: 0
